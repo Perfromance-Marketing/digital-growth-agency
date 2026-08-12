@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://digitalgrowthagency.github.io/sitemap.xml

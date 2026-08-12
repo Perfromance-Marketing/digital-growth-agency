@@ -1,0 +1,23 @@
+@import './reset.css';
+@import './variables.css';
+@import './typography.css';
+@import './layout.css';
+@import './components.css';
+
+/* Custom Global Helper Classes */
+.bg-gradient-subtle {
+  background: linear-gradient(180deg, var(--color-bg-base) 0%, var(--color-bg-surface-subtle) 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--color-brand-navy) 0%, var(--color-brand-primary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.divider {
+  height: 1px;
+  background-color: var(--color-border);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-xl);
+}
